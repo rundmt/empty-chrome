@@ -1,0 +1,15 @@
+{
+  "name": "chrome-driver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Derek Tor <derekmuoktor@gmail.com> (http://derektor.me)",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^2.53.1",
+    "yargs": "^4.6.0"
+  }
+}
