@@ -1,6 +1,6 @@
 {
   "name": "empty-chrome",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "run a blank chrome browser",
   "main": "index.js",
   "bin": {

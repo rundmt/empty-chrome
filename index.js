@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+//url is required
 var argv = require('yargs')
   .option('url', {
    alias: 'u',
@@ -8,6 +9,6 @@ var argv = require('yargs')
   }).argv;
 
 var driver = require('./driver');
+
 var browser = driver.start();
-var webdriver = driver.webdriver;
 browser.get(argv.url);

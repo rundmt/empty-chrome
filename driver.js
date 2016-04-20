@@ -9,6 +9,5 @@ function start () {
 }
 
 module.exports = {
-  start: start,
-  webdriver: webdriver
+  start: start
 };

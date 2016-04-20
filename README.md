@@ -15,4 +15,14 @@ Instead of creating a whole new profile we can use empty-chrome to give us a
 clean chrome experience.
 
 ## How to use
-First you must have [chrome](https://www.google.com/chrome/browser/desktop/) and [chromedriver]() installed on your computer.
+First you must have [chrome](https://www.google.com/chrome/browser/desktop/) installed on your computer.
+
+```
+npm install -g empty-chrome
+```
+NOTE: On Linux you may have to use sudo to install
+
+To Run:
+```
+empty-chrome --url http://localhost
+```
