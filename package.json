@@ -1,7 +1,7 @@
 {
   "name": "empty-chrome",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "run a blank chrome browser",
   "main": "index.js",
   "bin": {
     "empty-chrome": "index.js"
@@ -12,6 +12,7 @@
   "author": "Derek Tor <derekmuoktor@gmail.com> (http://derektor.me)",
   "license": "ISC",
   "dependencies": {
+    "chromedriver": "^2.21.2",
     "selenium-webdriver": "^2.53.1",
     "yargs": "^4.6.0"
   }

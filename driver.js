@@ -1,5 +1,6 @@
+require('chromedriver');
 var webdriver = require('selenium-webdriver');
-var chrome = require('selenium-webdriver/chrome');
+
 
 function start () {
   return new webdriver.Builder()
