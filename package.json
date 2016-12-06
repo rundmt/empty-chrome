@@ -12,9 +12,9 @@
   "author": "Derek Tor <derekmuoktor@gmail.com> (http://derektor.me)",
   "license": "MIT",
   "dependencies": {
-    "chromedriver": "^2.21.2",
-    "selenium-webdriver": "^2.53.1",
-    "yargs": "^4.6.0"
+    "chromedriver": "^2.25.1",
+    "selenium-webdriver": "^2.53.3",
+    "yargs": "^4.8.1"
   },
   "devDependencies": {},
   "repository": {
